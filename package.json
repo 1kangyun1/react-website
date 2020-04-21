@@ -1,6 +1,6 @@
 {
-  "homepage": "https://1kangyun1.github.io/react-website",
-  "name": "1kangyun1.github.io",
+  "homepage": "http://1kangyun1.github.io/react-website",
+  "name": "react-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
