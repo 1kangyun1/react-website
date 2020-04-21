@@ -8,11 +8,11 @@ export default function NavigationBar() {
       <Navbar.Brand href="/">Brian Kang</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
+      <Link to="/projects">link pro</Link>
+      <Link to="/resume">link resu</Link>
         <Nav className="mr-auto">
           <Nav.Link href="/projects">Projects</Nav.Link>
-          <Link to="/projects">link pro</Link>
           <Nav.Link href="/resume">Resume</Nav.Link>
-          <Link to="/resume">link resu</Link>
         </Nav>
         <Nav>
           <Nav.Link href="#deets">More deets</Nav.Link>
