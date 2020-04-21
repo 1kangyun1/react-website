@@ -1,6 +1,6 @@
 import React from 'react'
 import {Navbar, Nav} from 'react-bootstrap';
-
+import { Link } from 'react-router-dom';
 
 export default function NavigationBar() {
   return (
@@ -10,7 +10,9 @@ export default function NavigationBar() {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="/projects">Projects</Nav.Link>
+          <Link style={linkStyle} to="/projects">link pro</Link>
           <Nav.Link href="/resume">Resume</Nav.Link>
+          <Link style={linkStyle} to="/resume">link resu</Link>
         </Nav>
         <Nav>
           <Nav.Link href="#deets">More deets</Nav.Link>
