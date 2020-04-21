@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar, Nav} from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 export default function NavigationBar() {
@@ -8,16 +8,8 @@ export default function NavigationBar() {
       <Navbar.Brand href="/">Brian Kang</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="mr-auto">
-          <Link style={linkStyle} to="/projects">link pro</Link>
-          <Link style={linkStyle} to="/resume">link resu</Link>
-        </Nav>
-        <Nav>
-          <Nav.Link href="#deets">More deets</Nav.Link>
-          <Nav.Link eventKey={2} href="#memes">
-            Dank memes
-          </Nav.Link>
-        </Nav>
+        <Link style={linkStyle} to="/projects">link pro</Link>
+        <Link style={linkStyle} to="/resume">link resu</Link>
       </Navbar.Collapse>
     </Navbar>
   )
