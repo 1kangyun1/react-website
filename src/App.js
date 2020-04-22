@@ -12,17 +12,17 @@ import Invalid from './pages/Invalid.js';
 function App() {
   return (
     <React.Fragment>
-      <NavigationBar />
-      <Container>
-        <Router>
+      <Router>
+        <NavigationBar />
+        <Container>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/resume" component={Resume} />
             <Route component={Invalid} />
           </Switch>
-        </Router>
-      </Container>
+        </Container>
+      </Router>
     </React.Fragment>
   );
 }
