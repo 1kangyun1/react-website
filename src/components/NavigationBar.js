@@ -1,6 +1,7 @@
 import React from 'react'
 import {Navbar, Nav} from 'react-bootstrap';
 import { Link } from "react-router-dom";
+import pdf from '../doc/resume final.pdf';
 
 
 export default function NavigationBar() {
@@ -11,7 +12,7 @@ export default function NavigationBar() {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           <Link className="nav-link" to="/projects">Projects</Link>
-          <Link className="nav-link" to="/resume">Resume</Link>
+          <a href={pdf} target="_blank" rel="noopener noreferrer" className="nav-link">Resume</a>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

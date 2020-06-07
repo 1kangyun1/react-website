@@ -2,6 +2,36 @@
   {
     "id": 1,
     "name": "Todo App",
+    "language": ["HTML"],
+    "numImages": 2,
     "description": "Todo application using react and api"
+  },
+  {
+    "id": 2,
+    "name": "Dungeons and Slimes",
+    "language": ["Unity"],
+    "numImages": 4,
+    "description": "Dungeons and Slimes"
+  },
+  {
+    "id": 3,
+    "name": "HomeLight",
+    "language": ["Unreal Engine"],
+    "numImages": 5,
+    "description": "Story driven game about a blind child find his way home."
+  },
+  {
+    "id": 4,
+    "name": "PenguinRun",
+    "language": ["Unity"],
+    "numImages": 3,
+    "description": "Platforming game about a penguin with its ability to change dimension."
+  },
+  {
+    "id": 5,
+    "name": "WavePong",
+    "language": ["Unity"],
+    "numImages": 2,
+    "description": "It's pong game but circular."
   }
 ]
