@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import Carousel from 'react-bootstrap/Carousel';
+import Badge from 'react-bootstrap/Badge';
 
 export class ExpandItem extends Component {
   onHide = (e) => {
@@ -33,6 +34,10 @@ export class ExpandItem extends Component {
         <Modal.Header closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
             {this.props.proj.name}
+            <p style={{ margin : "0px" }}>
+              {this.props.proj.language.map((lan) => 
+              (<Badge style={{ marginRight : "5px" }} variant="primary">{lan}</Badge>))}
+            </p>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>

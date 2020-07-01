@@ -1,6 +1,7 @@
 import React from 'react'
-import {Navbar, Nav} from 'react-bootstrap';
+import {Navbar, Nav, Image} from 'react-bootstrap';
 import { Link } from "react-router-dom";
+import github from '../data/pictures/Github/GitHub-Mark-Light-32px.png';
 import pdf from '../doc/resume final.pdf';
 
 
@@ -14,6 +15,11 @@ export default function NavigationBar() {
           <Link className="nav-link" to="/projects">Projects</Link>
           <a href={pdf} target="_blank" rel="noopener noreferrer" className="nav-link">Resume</a>
         </Nav>
+        
+      <Nav>
+        
+        <a href="https://github.com/1kangyun1" target="_blank" rel="noopener noreferrer" className="nav-link"><Image src={github} fluid /></a>
+      </Nav>
       </Navbar.Collapse>
     </Navbar>
   )

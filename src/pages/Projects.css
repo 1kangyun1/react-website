@@ -1,3 +1,7 @@
 .cus-card-deck {
   margin-top: 20px;
 }
+
+.cus-card {
+  max-width: 350px;
+}

@@ -1,5 +1,6 @@
 html, #root {
   background-color: rgb(123, 178, 180);
+  background-image: url(/static/media/background.a6898b95.png);
   height: 100%;
 }
 

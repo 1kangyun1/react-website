@@ -1,37 +1,37 @@
 [
   {
-    "id": 1,
+    "id": 5,
     "name": "Todo App",
-    "language": ["HTML"],
+    "language": ["HTML", "JavaScript"],
     "numImages": 2,
-    "description": "Todo application using react and api"
+    "description": "Todo application using react and api."
   },
   {
-    "id": 2,
+    "id": 4,
     "name": "Dungeons and Slimes",
     "language": ["Unity"],
     "numImages": 4,
-    "description": "Dungeons and Slimes"
+    "description": "Deungeon defence game where you mutate and spawn slimes to fend off heros. Created in a team of 4."
   },
   {
     "id": 3,
     "name": "HomeLight",
     "language": ["Unreal Engine"],
     "numImages": 5,
-    "description": "Story driven game about a blind child find his way home."
+    "description": "Story driven game about a blind child finding his way home. Created in a team of 5."
   },
   {
-    "id": 4,
+    "id": 2,
     "name": "PenguinRun",
     "language": ["Unity"],
     "numImages": 3,
-    "description": "Platforming game about a penguin with its ability to change dimension."
+    "description": "Platforming game about a penguin with its ability to change its orientation. Created in a team of 4."
   },
   {
-    "id": 5,
+    "id": 1,
     "name": "WavePong",
     "language": ["Unity"],
     "numImages": 2,
-    "description": "It's pong game but circular."
+    "description": "Basic Pong game but played in a circular map. Created in a team of 2."
   }
 ]

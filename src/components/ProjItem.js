@@ -11,8 +11,8 @@ export class ProjItem extends Component {
 
   render() {
     return (
-      <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={require('../data/pictures/'+this.props.proj.name+'/0.png')} />
+      <Card className="cus-card" style={{ width: '18rem' }}>
+        <Card.Img className="cover" variant="top" src={require('../data/pictures/'+this.props.proj.name+'/0.png')} />
         <Card.Body>
           <Card.Title>{this.props.proj.name}</Card.Title>
           <Card.Text>{this.props.proj.description}</Card.Text>
