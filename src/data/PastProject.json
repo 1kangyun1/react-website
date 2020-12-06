@@ -4,7 +4,7 @@
     "name": "Todo App",
     "language": ["HTML", "JavaScript"],
     "numImages": 2,
-    "description": "Todo application using react and api."
+    "description": "Todo application using React. Uses Nodejs as backend and Postgresql as database, both are deployed onto the cloud. You can see it in action at https://1kangyun1.github.io/react-todo-app"
   },
   {
     "id": 4,
